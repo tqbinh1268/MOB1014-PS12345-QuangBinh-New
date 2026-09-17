@@ -1,2 +1,1 @@
-# COM1014-PS12345-QuangBinh
 # MOB1014-PS12345-QuangBinh
