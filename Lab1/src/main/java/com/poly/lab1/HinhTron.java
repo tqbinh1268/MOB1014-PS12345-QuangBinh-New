@@ -10,17 +10,16 @@ import java.util.Scanner;
  *
  * @author ongmuoigiao
  */
-public class NhapHoTen {
+public class HinhTron {
     public static void main(String[] args) {
-        String ten;
-        int namSinh;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhap ho ten: ");
-        ten = sc.nextLine();
-        System.out.print("Nhap nam sinh: ");
-        namSinh = sc.nextInt();
-        //xuat du lieu
-        System.out.printf("Ho va ten: %s\nNam sinh: %d\nTuoi: %d\n",ten,namSinh,2026 - namSinh);
-        //print println printf
+        final double PI = 3.14159;
+        double r,cv,dt;
+//        PI = PI + 1;
+        System.out.print("Ban kinh hinh tron: ");
+        r = sc.nextDouble();
+        cv = r*2*PI;
+        dt = r*r*PI;
+        System.out.printf("Duong tron co ban kinh: %.2f\nChu vi: %.2f\nDien tich: %.2f\n",r,cv,dt);
     }
 }
